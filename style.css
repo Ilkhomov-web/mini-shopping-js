@@ -1,0 +1,64 @@
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+body{
+    background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+li , a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header{
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    user-select: none;
+    background-color: transparent;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    cursor: pointer;
+}
+nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li,  a{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
