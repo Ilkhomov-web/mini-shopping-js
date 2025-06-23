@@ -17,13 +17,13 @@
         <img src="./assent/logo.png" alt="" />
         <ul>
           <li>
-            <a href="#">GitHub</a>
+            <a href="https://github.com/Ilkhomov-web">GitHub</a>
           </li>
           <li>
-            <a href="#">Telegram</a>
+            <a href="https://t.me/Elka_0624">Telegram</a>
           </li>
           <li>
-            <a href="#">Instagram</a>
+            <a href="https://www.instagram.com/elka_0624_/">Instagram</a>
           </li>
           <li>
             <span class="material-symbols-outlined" onclick="setGradient()">
@@ -36,13 +36,34 @@
     <main>
       <div class="container">
         <ul class="category-btns">
-          <li>All</li>
-          <li>Electronic</li>
-          <li>Clothes</li>
-          <li>Cars</li>
-          <li>Woomen Boots</li>
-          <li>Mobile Phone</li>
+          <li class="btn-category active" onclick="handleCategory('All')">
+            All
+          </li>
+          <li class="btn-category" onclick="handleCategory('Electronics')">
+            Electronics
+          </li>
+          <li class="btn-category" onclick="handleCategory('Footwear')">
+            Footwear
+          </li>
+          <li class="btn-category" onclick="handleCategory('Cars')">Cars</li>
+          <li class="btn-category" onclick="handleCategory('Clothing')">
+            Clothing
+          </li>
+          <li class="btn-category" onclick="handleCategory('Mobile')">
+            Mobile
+          </li>
         </ul>
+        <div class="shopping-cards">
+          <!-- <div class="shopping-card">
+            <img src="./assent/logo.png" alt="" />
+            <h3>name</h3>
+            <h5>description</h5>
+            <div class="sale">
+              <p>price</p>
+              <button>+</button>
+            </div>
+          </div> -->
+        </div>
       </div>
     </main>
 
